@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 export default cleanEnv(process.env, {
-    BOT_TOKEN: str({ desc: 'The Telegram bot API token' }),
+    BOT_TOKEN: str({ desc: '2104696293:AAG9l5DQhmiiP23uvM0b3wRpeigu5HuVtH4' }),
 
     SVG_RENDERER_URL: str(),
     IMAGES_PATH: str({
